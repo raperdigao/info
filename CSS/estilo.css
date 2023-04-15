@@ -1,0 +1,229 @@
+
+
+
+/* Importar fonte do google fonts */
+@charset “Utf-8”;
+@import url('https://fonts.googleapis.com/css2?family= Lagosta & display=swap');
+
+
+
+
+
+
+
+
+body{
+    /*background-image: url(/Imagens/backgound6.jpeg);*/
+    background-color: darkgray;
+    color: rgb(80, 56, 216);
+    
+    font-size: medium
+    }
+
+  /* Demarcando um espaço do site containet box shadow é uma sombra */
+  div#interface{
+    width: 900px;
+    background-color: aliceblue;
+    margin: -10px auto 0px auto;
+    padding: 10px 20px auto 20px;
+    box-shadow: 0px 0px 10px
+    rgba(0,0,0,.5);
+
+  }
+
+/* Estilizando a borda dentro do cabeçalho tamanho, cor e tipo da borda */
+  header#cabecalho{
+    border-bottom: 1px #d1b538 solid;
+    
+    }
+
+/* Estilizando o H2 fonte, tamanho da fonte, color, sombra, margin e pading*/
+ header#cabecalho h2{
+  
+  font-family: 'Lobster', cursive;
+  
+  font-size: 15pt;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+  background-color: blanchedalmond; 
+  text-align: center; 
+  margin: 0px;
+  padding: 0px;
+ }
+
+
+header#cabecalho h3{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 15pt;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0,0,0,.5);
+  margin: 5px;
+  padding: 5px;
+  color: black;
+}
+
+
+/* Configuração do paragrafo, margin negativo deixa no topo da pagina*/
+header#cabecalho p{
+  text-align: justify; background-color: blanchedalmond; color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   position: absolute;
+   left: 500px;
+   top: 300px;
+   margin: -1px;
+ }
+
+
+/* Tira u sublinhado, tira os pontos ou numero da itens */
+nav#menu ul{
+  list-style: none;
+  text-transform: uppercase;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, Times, serif
+  position: absolute;
+  top: -20px;
+  left: 480px;
+  
+
+  
+  
+  }
+
+  /* Deixar o menu na horizontal, quando passar o mouse faz uma sombra de 1 segundo */
+nav#menu li{
+  display: inline-block;
+  background-color: #c0501c;
+  padding: 0px;
+  margin: 1px;
+  transition: background-color 1s;
+  
+  
+}
+
+nav#menu li:hover{
+  background-color: darkgrey;
+}
+
+/* text decoration tira o sublinhado dos menus */
+nav#menu a{
+  color: blanchedalmond;
+  text-decoration: none;
+  
+}
+
+
+
+/* Centralizar menu
+nav#menu{
+  text-align: right;
+}
+*/
+
+
+/* Configuração para imagems do div
+.imagens{
+  position: absolute;
+  right: 750px;
+  top: 300px;
+  }
+*/
+
+/* Configuração do section com informações essencial float para flutuar na tela pedding 100px joga para
+ o lado diretito e display block é uma bloco ou região do site*/
+section#principal{
+
+  display: block;
+  width: 300px;
+  height: 600px;
+  float: left;
+  margin: -1px;
+  padding: 20px 100px 10px 20px;
+  border-right: 1px solid #c0501c;
+  }
+
+section#principal p{
+  text-align: justify;
+  color: black;
+}
+
+
+aside#MenuLateral{
+  display: block;
+  width: 300px;
+  float: right;
+  margin: -1px;
+  padding: 10px 150px 10px 30px;
+    
+
+
+}
+
+aside#MenuLateral li{
+  color: black;
+}
+
+
+
+  
+
+/* desfazer as configurações de flutuação, através do parâmetro “clear”, é o suficiente para que o rodapé esteja
+situado na posição desejada. e a borda para ficar na parte superior do rodapé*/
+footer#rodape{
+  clear: both;
+  color: black;
+  background-color: rgb(129, 129, 134);
+  font-weight: bold;
+  text-align: center;
+  padding: 0px;
+  border-top: 1px solid #c0501c;
+  
+  
+}
+
+
+
+
+li{
+  font-size: larger;
+  color: black;
+  }
+  
+a{
+  color: black;
+}
+
+
+
+
+/*
+.links{
+  text-align: center;
+  list-style: none;
+  
+}
+*/
+
+
+/* Configuração dos paragrafos
+h1{
+    text-align:center; background-color: blanchedalmond; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    background-color: blanchedalmond; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; text-align: center;
+
+}
+
+h3{
+  text-align: center; background-color: blanchedalmond; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: red;
+}
+
+p{
+  text-align: justify; background-color: blanchedalmond; color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h5{
+  text-align: center; background-color: blanchedalmond; color: black; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+*/
+
+
+
+
